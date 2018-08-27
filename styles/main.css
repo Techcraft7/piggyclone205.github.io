@@ -10,7 +10,7 @@ header {
 
 header h2 {
 	position: relative;
-	right: 5px;
+	right: -5px;
 	background-color: #808080;
 	color: #DCDCDC;
 }
