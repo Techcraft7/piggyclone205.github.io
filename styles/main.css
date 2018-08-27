@@ -2,5 +2,8 @@ header {
 	text-align: center;
 	font-family: Arial, Calibri, sans-serif;
 	font-size: 1.5625em;
+}
+
+header div {
 	background-color: #808080;
 }
