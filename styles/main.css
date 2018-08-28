@@ -13,9 +13,8 @@ header h2 {
 	color: #DCDCDC;
 }
 
-#topbar {
-    width: 100%; height: 45px;
-    border-style: solid;
-    border-color: #808080;
-    background-color: #808080;
+hr#topbar {
+	background-color: #808080;
+	border: none;
+	height: 70px;
 }
