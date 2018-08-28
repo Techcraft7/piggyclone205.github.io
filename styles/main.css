@@ -13,7 +13,7 @@ header h2 {
 	color: #DCDCDC;
 }
 
-hr#header {
+div#header {
 	background-color: #808080;
 	border: none;
 	height: 70px;
