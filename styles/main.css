@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 header {
 	position: relative;
 	text-align: center;
@@ -19,6 +23,53 @@ div#header {
 
 body {
 	margin: 0;
+}
+
+body h1 {
+	font-family: Arial, Calibri, sans-serif;
+}
+
+body h2 {
+	font-family: Arial, Calibri, sans-serif;
+}
+
+body h3 {
+	font-family: Arial, Calibri, sans-serif;
+}
+
+body h4 {
+	font-family: Arial, Calibri, sans-serif;
+}
+
+body h5 {
+	font-family: Arial, Calibri, sans-serif;
+}
+
+body h6 {
+	font-family: Arial, Calibri, sans-serif;
+}
+
+body p {
+	font-family: Arial, Calibri, sans-serif;
+}
+
+body pre {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.side {
+	flex: 30%;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+.main {
+	flex: 70%;
+	padding: 20px;
 }
 
 nav ul {
