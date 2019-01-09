@@ -5,8 +5,8 @@
 	<body>
 		<div id="header">
 			<header>
-				<h2>Gold's Games</h2>
-				<nav>
+				<h2 style="padding-top:25;">Gold's Games</h2>
+				<nav id="navbar">
 					<ul>
 						<li><a href="index.html" id="active">Home</a></li>
 						<li><a href="pages/games.html">Games</a></li>
@@ -17,16 +17,41 @@
 				</nav>
 			</header>
 		</div>
-		<div class="row">
+		<div class="row content">
 			<div class="main">
 				<h1>The GitHub Repo for this site is here!</h1>
 				<p>You can find the source code of this website (and contribute to it) at <a href="https://github.com/PiggyClone205/piggyclone205.github.io">this repository.</a>
+				<br>
+				<h1>My Discord server is now live!</h1>
+				<p>I have a discord server now! (I actually have for a month-ish as of this writing) To Tyler, thank you for being the first to join my Discord Server! So, without further ado, the server <a href="https://discord.gg/KS6PFHz">The Dudes</a> is now public!</p>
+				<br>
+				<h1>
+				
 			</div>
 			<div class="side">
 				<h2>Hi! I'm PiggyClone205!</h2>
 				<p>My name will not be revealed, as that would compromise my web identity. Anyways, this is my game website.</p>
-				<p>I also have some images and audio works on this site, and you can email me through the email page! Have fun, and stay gold!</p>
+				<p>I also have some images and audio works on this site, and you can email me through the email page! Have fun, and stay <span style=";color: #ffd700;">gold!</span></p>
 			</div>
 		</div>
 	</body>
+	<script>
+		// When the user scrolls the page, execute myFunction 
+		window.onscroll = function() {myFunction()};
+
+		// Get the navbar
+		var navbar = document.getElementById("navbar");
+
+		// Get the offset position of the navbar
+		var sticky = navbar.offsetTop;
+
+		// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			} else {
+				navbar.classList.remove("sticky");
+			}
+		}
+	</script>
 </html>
